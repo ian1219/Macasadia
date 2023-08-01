@@ -1,0 +1,26 @@
+static const uint8_t D0   = 3; (Rx)
+static const uint8_t D1   = 1; (Tx)
+static const uint8_t D2   = 16; (!)
+static const uint8_t D3   = 5; D3~D15
+static const uint8_t D4   = 4; D4~D14
+static const uint8_t D5   = 14; D5~D13
+static const uint8_t D6   = 12; D6~12
+static const uint8_t D7   = 13; D7~D11
+static const uint8_t D8   = 0; 
+static const uint8_t D9   = 2;
+static const uint8_t D10  = 15; 
+static const uint8_t D11  = 13; D11~D7
+static const uint8_t D12  = 12; D12~D6
+static const uint8_t D13  = 14; D13~D5
+static const uint8_t D14  = 4; D4~D14
+static const uint8_t D15  = 5; D15~D3
+
+
+
+
+ARDUINO PINS
+
+SWITCH                                     LED
+| 5  | - | D3 | - LEVEL 1				  | 12 | - | D6  | - LEVEL 1
+| 4  | - | D4 | - LEVEL 2				  | 13 | - | D7  | - LEVEL 2
+| 14 | - | D5 | - LEVEL 3				  | 15 | - | D10 | - LEVEL 3
